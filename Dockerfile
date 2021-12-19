@@ -5,6 +5,8 @@ RUN apt-get update && apt-get install -y git python3-dev gcc \
 
 COPY requirements.txt .
 
+RUN /usr/local/bin/python -m pip install --upgrade pip
+
 RUN pip install --upgrade -r requirements.txt
 
 COPY app app/
