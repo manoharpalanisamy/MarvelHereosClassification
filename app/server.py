@@ -10,7 +10,8 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 #export_file_url = 'https://drive.google.com/uc?export=download&id=1YFTR8BC6TvmT_cdFH-8b_YB-PUb17rxX'
-export_file_url = 'https://drive.google.com/uc?export=download&id=1-lUJOJ2raUuZE2XqTmDazNC6I9UlyCwR'
+#export_file_url = 'https://drive.google.com/uc?export=download&id=1-lUJOJ2raUuZE2XqTmDazNC6I9UlyCwR'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1-lUJOJ2raUuZE2XqTmDazNC6I9UlyCwR?alt=media&key=AIzaSyAWPtx1FFK-KE44J-YJ952dDTv_J4gh1yU'
 
 export_file_name = 'export.pkl'
 
